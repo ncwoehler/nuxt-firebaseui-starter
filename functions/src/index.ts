@@ -12,6 +12,6 @@ const config = {
 }
 const nuxt = new Nuxt(config)
 
-exports.ssrapp = functions.https.onRequest((req: any, res: any) =>
+exports.nuxtApp = functions.https.onRequest((req: any, res: any) =>
   nuxt.render(req, res)
 )
