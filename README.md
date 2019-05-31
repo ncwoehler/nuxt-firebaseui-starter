@@ -1,4 +1,4 @@
-# nuxt-firebaseui-starter
+# Nuxt FirebaseUI starter
 
 > Starter repository for NuxtJS with FirebaseUI
 
