@@ -1,10 +1,10 @@
 import firebase from 'firebase/app'
+import firebaseConf from '~/firebase.config.js'
 import 'firebase/firestore'
 import 'firebase/auth'
-import config from '~/firebase.config.js'
 
 if (!firebase.apps.length) {
-  firebase.initializeApp(config())
+  firebase.initializeApp(firebaseConf)
 }
 
 export const authProviders = {
