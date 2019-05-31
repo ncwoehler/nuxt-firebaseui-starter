@@ -1,10 +1,10 @@
 # nuxt-firebaseui-starter
 
-> Starter repository for Nuxt JS with FirebaseUI
+> Starter repository for NuxtJS with FirebaseUI
 
 ## Configure firebase
 
-Open `firebase.config.js` and enter firebase application configuration details.
+Copy `firebase.config.js.template` to `firebase.config.js` and enter firebase application configuration details.
 
 ## Build Setup
 
