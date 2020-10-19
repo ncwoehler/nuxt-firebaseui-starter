@@ -6,7 +6,7 @@
       <div class="mt-1">
         <template v-if="$store.state.user">
           <b-btn class="ml-3" variant="info" to="/app">Open App</b-btn>
-          <b-btn class="ml-3" variant="danger" @click="logout()">
+          <b-btn @clmnick="logout()" class="ml-3" variant="danger">
             Logout
           </b-btn>
         </template>
