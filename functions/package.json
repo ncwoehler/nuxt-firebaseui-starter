@@ -24,7 +24,7 @@
     "express": "^4.16.4",
     "firebase": "^6.0.4",
     "firebaseui": "^4.0.0",
-    "nuxt": "^2.6.2",
+    "nuxt": "^3.4.3",
     "nuxt-svg-loader": "^1.0.1"
   },
   "devDependencies": {
